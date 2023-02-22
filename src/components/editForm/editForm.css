@@ -1,0 +1,28 @@
+.editForm-container {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 1rem;
+  gap: .5rem;
+}
+
+.editForm-container form {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.editForm-container form textarea {
+  resize: none;
+  height: 5rem;
+}
+
+.editForm-container form .form-action {
+  display: flex;
+  gap: .5rem;
+}
+
+.editForm-container form .form-action .button:nth-child(1) {
+  background: #34a853;
+  color: #fff;
+}

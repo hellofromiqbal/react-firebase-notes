@@ -1,0 +1,23 @@
+.notesList-container {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: .5rem;
+  overflow: hidden;
+}
+
+.notesList-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.notesList-header .button {
+  background: #4285f4;
+  color: white;
+}
+
+.notesList-content {
+  overflow: auto;
+}

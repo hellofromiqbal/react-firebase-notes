@@ -1,0 +1,21 @@
+.note-item {
+  background: #f3eeee;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: .5rem;
+  border-bottom: 1px solid #fff;
+}
+
+.note-item__action {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.note-item__action .icon {
+  font-size: 1.3rem;
+  cursor: pointer;
+}

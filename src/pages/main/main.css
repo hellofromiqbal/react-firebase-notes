@@ -1,0 +1,24 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container__textual {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .3rem;
+}
+
+.main-container__textual h1 {
+  font-size: 3rem;
+}
+
+.main-container__textual .button {
+  background: #34a853;
+  color: #fff;
+}
