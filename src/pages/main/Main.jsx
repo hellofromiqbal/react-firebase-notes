@@ -1,4 +1,5 @@
 import './main.css';
+import { SiGitbook } from 'react-icons/si'
 import { useNavigate } from 'react-router-dom';
 import { signInWithPopup } from 'firebase/auth';
 import { auth, provider } from '../../config/firebase';
@@ -17,10 +18,14 @@ const Main = () => {
   return (
     <section className="main-container">
       <div className="main-container__textual">
-        <h1>NOTES</h1>
+        <div className="textual-logo">
+          <SiGitbook className='icon'/>
+          <h1>NOTES</h1>
+        </div>
         {user?
           <>
-            <p>Already logged in. Click below to redirect to your home page.</p>
+            <p>Your account is still logging in.</p>
+            <p>Click the button below to redirect to the home page.</p>
             <button className="button" onClick={() => navigate("/home")}>HOME PAGE</button>
           </>
           :

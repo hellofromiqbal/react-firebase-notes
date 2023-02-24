@@ -7,6 +7,7 @@
 }
 
 .main-container__textual {
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,6 +20,24 @@
 }
 
 .main-container__textual .button {
+  margin-top: .5rem;
   background: #34a853;
   color: #fff;
+}
+
+.textual-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .5rem;
+}
+
+.textual-logo .icon {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .main-container__textual {
+    padding: 1rem;
+  }
 }
