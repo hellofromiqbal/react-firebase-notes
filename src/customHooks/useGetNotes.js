@@ -1,6 +1,5 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { collection, getDocs } from "firebase/firestore";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { database } from "../config/firebase";
 
 const useGetNotes = () => {
@@ -18,11 +17,7 @@ const useGetNotes = () => {
     };
   };
 
-  useEffect(() => {
-    getNotesList();
-  }, []);
-
-  return {notesList, setNotesList};
+  return {notesList, setNotesList, getNotesList};
 };
  
 export default useGetNotes;

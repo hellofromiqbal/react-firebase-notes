@@ -4,7 +4,6 @@ import NotesList from '../../components/notesList/NotesList';
 import { signOut } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
 import { auth } from '../../config/firebase';
-import { AiFillHeart } from 'react-icons/ai';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -19,7 +18,7 @@ const Home = () => {
       <NotesForm title={'ADD NOTES'}/>
       <NotesList/>
       <footer>
-        <small>Copyright &copy; 2022 | Created with <AiFillHeart className='icon'/> by Muhammad Iqbal</small>
+        <small>Copyright &copy; 2022 | Muhammad Iqbal.</small>
         <button className="button" onClick={handleGetOut}>Get Out</button>
       </footer>
     </section>
