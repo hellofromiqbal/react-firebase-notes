@@ -3,12 +3,12 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDhgjbH90ye2QoqkqJdFskHBiwrUVm5rQ4",
-  authDomain: "crud-app-968d8.firebaseapp.com",
-  projectId: "crud-app-968d8",
-  storageBucket: "crud-app-968d8.appspot.com",
-  messagingSenderId: "412660455580",
-  appId: "1:412660455580:web:8f1ee8680cda36ddf5f559"
+  apiKey: "AIzaSyAdvqWQWQMJZvXRYcQPi6mBOsRRYliKbn0",
+  authDomain: "database-project-bc3cb.firebaseapp.com",
+  projectId: "database-project-bc3cb",
+  storageBucket: "database-project-bc3cb.appspot.com",
+  messagingSenderId: "947623416423",
+  appId: "1:947623416423:web:25b2e12648e91dd7d9bac2"
 };
 
 const app = initializeApp(firebaseConfig);
